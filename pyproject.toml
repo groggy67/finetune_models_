@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fine-tune-models-cousera"
+version = "0.1.0"
+description = ""
+authors = ["Groggye <groggy67@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+datasets = "^3.0.1"
+jsonlines = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
